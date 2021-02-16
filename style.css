@@ -1,0 +1,106 @@
+*{
+	margin: 10px;
+}
+
+body{
+  background-color: #E3F09B;
+  color: #003B36;
+  font-family: 'Handlee', lato, lobster, sans-serif;
+  font-size: 18px;
+  text-align: justify;
+	line-height: 35px;
+}  
+
+.name{
+  font-family: 'Libre Barcode 39 Text', sans-serif;
+  color:#A53F2B;
+  font-weight: 600px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.picture{
+	border-radius: 50%;
+	border: 10px solid #A53F2B;
+	float: left;
+	margin-top: 45px;
+}
+
+#profile-description{
+  font-family: 'Handlee', lato, lobster, sans-serif;
+  color:#012622;
+  font-size: 20px;
+  margin-top: 60px;
+}
+
+#butonskills{
+	color: #F7D08A;
+	background-color: #A53F2B;
+	padding: 15px 30px;
+	border-radius: 4px;
+	line-height: 20px;
+	font-weight: bold;
+	margin: auto;
+	position: relative;
+}
+
+#butonaboutme{
+	color: #F7D08A;
+	background-color: #A53F2B;
+	padding: 15px 30px;
+	border-radius: 4px;
+	line-height: 20px;
+	font-weight: bold;
+	margin: auto;
+}
+
+#butonblogs{
+	color: #F7D08A;
+	background-color: #A53F2B;
+	padding: 15px 30px;
+	border-radius: 4px;
+	line-height: 20px;
+	font-weight: bold;
+	margin: auto;
+}
+
+.butons{
+	text-align: center;
+}
+
+#relationship{
+	font-weight: bold;
+	text-align: left;
+}
+
+#training{
+	font-weight: bold;
+	text-align: left;
+}
+
+#planning{
+	font-weight: bold;
+	text-align: left; 
+}
+
+#self-management{
+	font-weight: bold;
+	text-align: left;  
+}
+
+#organization{
+	font-weight: bold;
+	text-align: left;  
+}
+
+.aboutme{
+	color:#8C1C1;
+	line-height: 30px;
+	font-size: 18px;
+}
+
+#blog-list{
+	text-decoration: none;
+	text-align: left;  
+	line-height: 38px;
+} 
