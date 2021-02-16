@@ -1,117 +1,106 @@
-<style>
+*{
+	margin: 10px;
+}
 
-    h1{
-        font-family: 'Tahoma', sans-serif;
-        color:#BF4342;
-        line-height: 50px;
-        font-weight: 700;
-        font-size: 45px;
-        text-align: center;
-    }
+body{
+  background-color: #E3F09B;
+  color: #003B36;
+  font-family: 'Handlee', lato, lobster, sans-serif;
+  font-size: 18px;
+  text-align: justify;
+	line-height: 35px;
+}  
 
-    .picture{
-        border-radius: 50%;
-    } 
+.name{
+  font-family: 'Libre Barcode 39 Text', sans-serif;
+  color:#A53F2B;
+  font-weight: 600px;
+  font-size: 30px;
+  text-align: center;
+}
 
-    h2{
-        font-family: 'Tahoma', sans-serif;
-        color:#BF4342;
-        line-height: 35px;
-        font-weight: 600;
-        font-size: 35px;
-        text-align: justify;
-    }
+.picture{
+	border-radius: 50%;
+	border: 10px solid #A53F2B;
+	float: left;
+	margin-top: 45px;
+}
 
-    .list-section{
-        text-decoration: none;
-        font-family: 'Tahoma', sans-serif;
-        font-weight: bold;
-        font-size: 35px;
-        text-align: left;  
-    }
+#profile-description{
+  font-family: 'Handlee', lato, lobster, sans-serif;
+  color:#012622;
+  font-size: 20px;
+  margin-top: 60px;
+}
 
-    body{
-        background-color: #E7D7C1;
-        color: #8C1C13;
-        font-family: 'Geneva', sans-serif;
-        font-size: 20px;
-        text-align: justify;
-    }
+#butonskills{
+	color: #F7D08A;
+	background-color: #A53F2B;
+	padding: 15px 30px;
+	border-radius: 4px;
+	line-height: 20px;
+	font-weight: bold;
+	margin: auto;
+	position: relative;
+}
 
-    .profile-title{
-        font-family: 'Tahoma', sans-serif;
-        text-align: left;
-    }
+#butonaboutme{
+	color: #F7D08A;
+	background-color: #A53F2B;
+	padding: 15px 30px;
+	border-radius: 4px;
+	line-height: 20px;
+	font-weight: bold;
+	margin: auto;
+}
 
-    .profile-description{
-        font-family: 'Geneva', sans-serif;
-        text-align: justify;  
-    }
+#butonblogs{
+	color: #F7D08A;
+	background-color: #A53F2B;
+	padding: 15px 30px;
+	border-radius: 4px;
+	line-height: 20px;
+	font-weight: bold;
+	margin: auto;
+}
 
-    .list-relationship{
-        font-family: 'Tahoma', sans-serif;
-        line-height: 35px;
-        font-weight: bold;
-        font-size: 25px;
-        text-align: left;  
-    }
+.butons{
+	text-align: center;
+}
 
-    .list-training{
-        font-family: 'Tahoma', sans-serif;
-        line-height: 30px;
-        font-weight: bold;
-        font-size: 20px;
-        text-align: left;  
-    }
+#relationship{
+	font-weight: bold;
+	text-align: left;
+}
 
-    .list-planning{
-        font-family: 'Tahoma', sans-serif;
-        line-height: 25px;
-        font-weight: bold;
-        font-size: 15px;
-        text-align: left;  
-    }
+#training{
+	font-weight: bold;
+	text-align: left;
+}
 
-    .list-self-management{
-        font-family: 'Tahoma', sans-serif;
-        line-height: 20px;
-        font-weight: bold;
-        font-size: 10px;
-        text-align: left;  
-    }
+#planning{
+	font-weight: bold;
+	text-align: left; 
+}
 
-    .list-organization{
-        font-family: 'Tahoma', sans-serif;
-        line-height: 15px;
-        font-weight: bold;
-        font-size: 5px;
-        text-align: left;  
-    }
+#self-management{
+	font-weight: bold;
+	text-align: left;  
+}
 
-    h3{
-        font-family: 'Tahoma', sans-serif;
-        color:#BF4342;
-        line-height: 30px;
-        font-weight: 600;
-        font-size: 20px;
-        text-align: justify;
-    }
+#organization{
+	font-weight: bold;
+	text-align: left;  
+}
 
-    .blog-list{
-        text-decoration: none;
-        font-family: 'Tahoma', sans-serif;
-        text-align: left;  
-    }
+.aboutme{
+	color:#8C1C1;
+	line-height: 30px;
+	font-size: 18px;
+}
 
-    .buton{
-        color: #E7D7C1;
-        background-color: #8C1C13;
-        padding: 15px 30px;
-        border-radius: 4px;
-        font-size: 16px;
-        line-height: 20px;
-        font-weight: 700;
-        text-decoration: none;
-    }
-
-</style>
+#blog-list{
+	text-decoration: none;
+	text-align: left;  
+	line-height: 38px;
+} 
